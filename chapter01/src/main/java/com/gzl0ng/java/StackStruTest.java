@@ -7,7 +7,7 @@ package com.gzl0ng.java;
 public class StackStruTest {
     public static void main(String[] args) {
         /**
-         * 分别执行二次代码 javap -v反编译这个clss文件
+         * 分别执行二次代码 javap -v反编译这个clss文件   第一个直接将结果编译，第二个进行了多次进栈出栈操作
          */
 
 
