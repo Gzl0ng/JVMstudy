@@ -9,6 +9,8 @@ package com.gzl0ng.java2;
  * 栈上分配测试
  *
  * -Xmx1G -Xms1G -XX:-DoEscapeAnalysis -XX:+PrintGCDetails
+ *
+ * 作了逃逸分析后时间由：80ms-5ms并且没有发生GC
  */
 public class StackAllocation {
     public static void main(String[] args) {
